@@ -1,0 +1,14 @@
+.header{
+	background-color: #ffffff;
+}
+.header-phones a{
+    color: #373737;
+    font-weight: 700;
+    text-decoration: none;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    margin-left: 15px;
+}

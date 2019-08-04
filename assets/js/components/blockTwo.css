@@ -1,0 +1,25 @@
+.block-two{
+    background-color: #fff;
+    display: flex;
+    flex-flow: column;
+}
+.block-two-item{
+    background-color: #f9f9f9;
+    min-width: 250px;
+    max-width: 470px;
+    flex-wrap: inherit;
+    padding: 7px;
+    margin: 7px;
+}
+.block-two-item h3{
+    font-size: 22px;
+    color: #842a2a;
+}
+.block-two-item p{
+font-size: 10px;
+color: #454545;
+}
+.block-two-item p:first-letter{
+	font-size: 200%;
+	color: #c04545;
+}

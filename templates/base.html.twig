@@ -1,12 +1,15 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
+<!DOCTYPE html><html><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Музыкальный класс Харитончика Руслана Фёдоровича" />
+<meta property="og:type" content="music.guitar" />
+<meta property="og:image" content="http://www.muzclass.by/assets/images/preview.jpg" />
+<meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="ZW03OWh2ZEkpGwMPI0I0f1Q3f3xZTj4NIx9kcB8RJRtTGHBtPRIxPw==">
+        <title>{% block title %}MuzClass!{% endblock %} - Музыкальный класс Харитончика Руслана Фёдоровича</title>
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+{% block body %}{% endblock %}
+{% block javascripts %}{% endblock %}
     </body>
 </html>
