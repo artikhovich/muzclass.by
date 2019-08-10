@@ -9,8 +9,8 @@ class Header extends React.Component{
 	render(){
 		return(
 			<div className='header'>
-				<h1>{ this.props.constant[0].title }</h1>
-				<Nav param={this.props.constant[0]}/>
+				<h1>{ this.props.headDB.title }</h1>
+				<Nav param={this.props.headDB}/>
 			</div>
 			)
 	}
@@ -30,6 +30,6 @@ render(){
 }
 
 export default connect(
-state => ({constant: state.constants.constantsDB
+state => ({headDB: state.constants.constantsDB[0]
 })
 )(Header);

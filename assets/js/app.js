@@ -7,13 +7,16 @@ import {Provider} from 'react-redux';
 import reducer from './reducers';
 import Header from './components/header';
 import BlockTwo from './components/blockTwo';
+import Footer from './components/footer';
+
 const store = createStore(reducer,window.__REDUX_DEVTOOLS_EXTENSION__&& window.__REDUX_DEVTOOLS_EXTENSION__());
 class App extends React.Component{
 	render(){
 		return (
 			<div className='app'>
-			<Header />
-			<BlockTwo />
+				<Header />
+				<BlockTwo />
+				<Footer />
 			</div>
 			) 
 	}
