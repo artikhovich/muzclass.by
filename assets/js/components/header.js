@@ -9,7 +9,6 @@ class Header extends React.Component{
 	render(){
 		return(
 			<div className='header'>
-				<h1>{ this.props.headDB.title }</h1>
 				<Nav param={this.props.headDB}/>
 			</div>
 			)
@@ -22,6 +21,9 @@ render(){
 	return(
 	<nav className="navbar navbar-fixed-top">
 		<div className="header-phones">
+			<div className='brand'>
+				<h1>{ this.props.param.title }</h1>
+			</div>
 			<a href={this.props.param.velcomLink} >{this.props.param.velcom}</a>
 			<a href={this.props.param.mtsLink} >{this.props.param.mts}</a>
 		</div>

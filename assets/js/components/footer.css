@@ -1,4 +1,12 @@
 .footer{
-	background-color: red;
-	color: black;
+    background-color: #918080;
+    color: #ffffff;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 0px;
+    min-height: 150px;
+    width: 100%;
+    font-size: 12px;
+    padding: 10px;
 }
